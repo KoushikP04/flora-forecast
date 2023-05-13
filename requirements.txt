@@ -1,0 +1,5 @@
+# Required packages for my project
+numpy==1.20.3
+pandas==1.3.0
+matplotlib==3.4.2
+scikit-learn==0.24.2
