@@ -25,4 +25,7 @@ X_new = [[5.0, 3.5, 1.3, 0.2], [6.7, 3.1, 4.4, 1.4], [6.0, 3.0, 4.8, 1.8]]
 y_pred = clf.predict(X_new)
 print(f"Predictions: {y_pred}")
 
-
+# Checking the performance of the model on the test set
+y_test_pred = clf.predict(X_test)
+print(f"Predictions on test set: {y_test_pred}")
+print(f"True labels of test set: {y_test}")
